@@ -1,6 +1,6 @@
-// Script by RAFHAN SER
-// RAFHAN SER | 𝙳𝙾𝙽'𝚃 𝙲𝙷𝙰𝙽𝙶𝙴 𝙲𝚁𝙴𝙸𝚃𝚂🙂
-// ©RAFHAN SER Bot 
+      var ucapanWaktu = "Good night";
+// RAFHAN SER | 𝙳𝙾𝙽'𝚃 𝙲𝙷𝙰𝙽𝙶𝙴 𝙲𝚁𝙴𝙳𝙸𝚃𝚂🙂
+// ©RAFHAN  SER  
 const {
   WAConnection: _WAConnection,
   MessageType,
@@ -87,13 +87,11 @@ const { addVote, delVote } = require("./lib/vote");
 const reminder = require("./lib/reminder");
 const { jadibot, stopjadibot, listjadibot } = require("./lib/jadibot");
 const _reminder = JSON.parse(fs.readFileSync("./database/reminder.json"));
-let _registered = JSON.parse(fs.readFileSync('./database/user/registered.json'))
-let register = JSON.parse(fs.readFileSync('./database/user/registered.json'))
 const truth = JSON.parse(fs.readFileSync('./database/truth.json'))
 const dare = JSON.parse(fs.readFileSync('./database/dare.json'))
 // BATAS IMAGE FOLDER //
 const iye = fs.readFileSync('./stik/thumb.jpeg')
-const asw1 = 'https://photos.app.goo.gl/Ca5wPQytUFGuhzwT7'
+const asw1 = 'https://photos.app.goo.gl/CpKvvRRuCwN7tmXb6.jpg'
 const sip = fs.readFileSync('./stik/oksip.jpeg')
 const bgg = fs.readFileSync('./stik/fake.jpeg')
 //// Image ///
@@ -135,7 +133,7 @@ autoketik = false;
 prefixStatus = true;
 targetpc = "919745310120"; 
 owner = "919745310120"; 
-fakeyoi = "RAFHAN SER Sir"; 
+fakeyoi = "RAFHAN  Sir"; 
 HunterApi = "Ikyy69", 
 xchillds = 'XChillDs' 
 hardi = 'hardianto', 
@@ -358,7 +356,7 @@ const checkRegisteredUser = (sender) => {
     const groupOwner = isGroup ? groupMetadata.owner : "";
     const hour_now = moment().format('HH:mm:ss')
     const groupAdmins = isGroup ? getGroupAdmins(groupMembers) : "";
-    const isBotGroupAdmins = groupAdmins.includes(botNumber) || false;
+    const isRAFHAN GroupAdmins = groupAdmins.includes(botNumber) || false;
     const isGroupAdmins = groupAdmins.includes(sender) || false;
     const isBanchat = isGroup ? bancht.includes(from) : false
     const isVote = isGroup ? voting.includes(from) : false;
@@ -372,7 +370,7 @@ const checkRegisteredUser = (sender) => {
     if (prefix && command) cmdadd();
     const totalhit = JSON.parse(fs.readFileSync("./lib/totalcmd.json"))[0]
       .totalcmd;
-const daftar1 = `❑ Hi ${pushname} 🐦 ${ucapanWaktu} \n\n❑ Before Using the Bot Verify First 🙂`
+const daftar1 = `❑ Hi ${pushname} 🐦 ${ucapanWaktu} \n\n❑ Before Using the RAFHAN  Verify First 🙂`
        const daftar2 = '```Click the button below to verify bro or type #verify\nRAFHAN SER 😎```'
        const daftar3 = [
           {
@@ -382,10 +380,7 @@ const daftar1 = `❑ Hi ${pushname} 🐦 ${ucapanWaktu} \n\n❑ Before Using the
             },
             type: 1,
           },]
-var hayuk0 = '[NOT VERIFIED]'
-			if (isRegistered) {
-			hayuk0 = '[√ VERIFIED]'
-			}
+
     //Y
 const timeWib = moment.tz('Asia/Jakarta').format('DD/MM HH:mm:ss')
 		const timeWita = moment().tz('Asia/Makassar').format('DD/MM HH:mm:ss')
@@ -475,7 +470,7 @@ const math = (teks) => {
           thumbnail: iye,
           surface: 200,
           message: iye,
-          orderTitle: "RAFHAN SER",
+          orderTitle: "RAFHAN ",
           sellerJid: "0@s.whatsapp.net",
         },
       },
@@ -750,23 +745,7 @@ download(url, "./stik" + names + ".png", async function () {
         );
       });
     };
-if (budy.toLowerCase() === `8473`){
-		if (isRegister) return 
-		    register.push(sender)
-		    fs.writeFileSync('./database/user/registered.json', JSON.stringify(register))
-		    teks = `Verification success\n\nPlease send *!menu* to view menu`
-		    xeon.sendMessage(from, teks, text, {quoted: fkontak })
-}          /*if (!mek.key.fromMe && banChats === false) return*/
-	              
-           
-const getRegisteredRandomId = () => {
-            return _registered[Math.floor(Math.random() * _registered.length)].id
-        }
-        const addRegisteredUser = (userid, sender, age, time, serials) => {
-            const obj = { id: userid, name: sender, age: age, time: time, serial: serials }
-            _registered.push(obj)
-            fs.writeFileSync('./database/user/registered.json', JSON.stringify(_registered))
-        }
+
         
    
 //******************* 》banchat《 ********************\\
@@ -787,7 +766,7 @@ if (!itsMe && !isOwner)return
               jpegThumbnail: fs.readFileSync(`./stik/thumb.jpeg`), //Gambarnye
             },
             title: "FakeReply Bang", //Kasih namalu
-            description: "RAFHAN SER",
+            description: "RAFHAN ",
             currencyCode: "USD",
             priceAmount1000: "2000",
             retailerId: "RAFHAN SER",
@@ -916,7 +895,7 @@ xeon.sendMessage(id, buttonMessages, MessageType.buttonsMessage, options)
       xeon.groupAdd(from, orangnya);
     };
         const grupinv = (teks) => {
-        	grup = xeon.prepareMessageFromContent(from, { "groupInviteMessage": { "groupJid": '6288213840883-1616169743@g.us', "inviteCode": 'https://chat.whatsapp.com/Dgt6JhzTvlmEor8Zz23fHx', "groupName": `RAFHAN SER Bot Ofc.`, "footerText": "*_RAFHAN SER_*", "jpegThumbnail": iye, "caption": teks}}, {quoted:mek})
+        	grup = xeon.prepareMessageFromContent(from, { "groupInviteMessage": { "groupJid": '6288213840883-1616169743@g.us', "inviteCode": 'https://chat.whatsapp.com/Dgt6JhzTvlmEor8Zz23fHx', "groupName": `RAFHAN  RAFHAN  Ofc.`, "footerText": "*_RAFHAN SER_*", "jpegThumbnail": iye, "caption": teks}}, {quoted:mek})
             xeon.relayWAMessage(grup)
         }
 const fakeitem = (teks) => {
@@ -929,11 +908,11 @@ remoteJid :"6289523258649-1604595598@g.us" }: {})
                     },message:{"orderMessage":{"orderId":"174238614569481","thumbnail":fs.readFileSync(`./stik/thumb.jpeg`),"itemCount":10,"status":"INQUIRY","surface":"CATALOG","message":`RAFHAN SER 😎`,"token":"AR6xBKbXZn0Xwmu76Ksyd7rnxI+Rx87HfinVlW4lwXa6JA=="}}}, contextInfo: {"forwardingScore":999,"isForwarded":true},sendEphemeral: true})}
 // Katalog
 const reply = (teks) => {
-             res = xeon.prepareMessageFromContent(from,{ "orderMessage": { "itemCount": 111119999, "message": teks, "footerText": "*RAFHAN SER*", "thumbnail": bgg, "surface": 'CATALOG' }}, {quoted:ftrol})
+             res = xeon.prepareMessageFromContent(from,{ "orderMessage": { "itemCount": 111119999, "message": teks, "footerText": "*RAFHAN *", "thumbnail": bgg, "surface": 'CATALOG' }}, {quoted:ftrol})
              xeon.relayWAMessage(res)
         }
 const fakewa = (teks) => {        
-xeon.sendMessage(from, teks, text, { thumbnail: fake, sendEphemeral: true, quoted: mek, contextInfo: { forwardingScore: 508, isForwarded: true, externalAdReply:{title: `RAFHAN SER`,body:"",previewType:"PHOTO",thumbnail:iye,sourceUrl:`https://wa.me/919745310120?text=hello`}}})
+xeon.sendMessage(from, teks, text, { thumbnail: fake, sendEphemeral: true, quoted: mek, contextInfo: { forwardingScore: 508, isForwarded: true, externalAdReply:{title: `RAFHAN `,body:"",previewType:"PHOTO",thumbnail:iye,sourceUrl:`https://wa.me/919745310120?text=hello`}}})
 		}
 const replyfakelink = (teks) => {
 xeon.sendMessage(from, teks, text,{contextInfo :{text: 'hi',
@@ -944,7 +923,7 @@ sendEphemeral: false,
                 "title": `Whatsapp-BOT\nRAFHAN SER😎. (@nnda.krnwn_) •Instagram photos and Videos`,
                 "body": "",
                 "previewType": "PHOTO",
-                "thumbnailUrl": "https://photos.app.goo.gl/Ca5wPQytUFGuhzwT7",
+                "thumbnailUrl": "https://photos.app.goo.gl/CpKvvRRuCwN7tmXb6.jpg",
                 "thumbnail": fake,
                 "sourceUrl": ``
 },mentionedJid:[sender]}, quoted : fgif})
@@ -959,7 +938,7 @@ sendEphemeral: false,
                 "body": `wa.me/919745310120`,
                 "mediaType": "10",
                 "mediaUrl": `wa.me/919745310120`,
-                "thumbnailUrl": "https://photos.app.goo.gl/Ca5wPQytUFGuhzwT7",
+                "thumbnailUrl": "https://photos.app.goo.gl/CpKvvRRuCwN7tmXb6.jpg",
                 "thumbnail": iye,
                 "sourceUrl": `wa.me/919745310120`,
 },mentionedJid:[sender]}, quoted : mek})
@@ -973,7 +952,7 @@ sendEphemeral: false,
 "title": `Hello ${pushname}` ,
 "body": `${ucapanWaktu}`,
 "mediaType": "2",
-"thumbnailUrl": "https://photos.app.goo.gl/Ca5wPQytUFGuhzwT7",
+"thumbnailUrl": "https://photos.app.goo.gl/CpKvvRRuCwN7tmXb6.jpg",
 "mediaUrl": "https://youtube.com/channel/UCvAo9TZ0Pw9vrJ_0WYRyO3A",
 "thumbnail": fs.readFileSync('./stik/thumb.jpeg'),
 "sourceUrl": "",
@@ -1266,7 +1245,7 @@ async function sendFileFromUrl(from, url, caption, msg, men) {
           json: [
             "action",
             "invite",
-            `${budy.replace("https://chat.whatsapp.com/", "")}`,
+            `${budy.replace("", "")}`,
           ],
         });
       }
@@ -1283,47 +1262,12 @@ async function sendFileFromUrl(from, url, caption, msg, men) {
       let _uptime = process.uptime() * 1000;
       let uptime = clockString(_uptime);
 
-await xeon.setStatus(`Bot Mode On Since ${uptime}`).catch((_) => _);
+await xeon.setStatus(`RAFHAN  Mode On Since ${uptime}`).catch((_) => _);
       settingstatus = new Date() * 1;
     }
     if (!mek.key.fromMe && banChats === true) return;
 switch (command) {
-case 'verify':
-              
-if (isRegistered) return reply('Your account is verified')
-const serialUser = createSerial(18)
-	         try {
-								ppimg = await xeon.getProfilePicture(`${sender.split('@')[0]}@c.us`)
-								} catch {
-								ppimg = 'https://i0.wp.com/www.gambarunik.id/wp-content/uploads/2019/06/Top-Gambar-Foto-Profil-Kosong-Lucu-Tergokil-.jpg'
-							}
-	        veri = sender
-	        _registered.push(sender)
-	        fs.writeFileSync('./database/user/registered.json', JSON.stringify(_registered))
-	        addRegisteredUser(sender, serialUser)
-	         const anuu = `「 *USER REGISTRATION* 」
-*Thank you for registering in the RAFHAN SER😎 Database*
 
-▢ *ɴᴀᴍᴇ :* ${pushname}
-▢ *ᴀᴘɪ :* +${sender.split('@')[0]}
-▢ *sᴇʀɪᴀʟ :* ${serialUser}
-▢ *ᴛᴏᴛᴀʟ :* ${_registered.length} User
-
-*「 RAFHAN SER 」*`
-         haitod = await getBuffer(`http://hadi-api.herokuapp.com/api/card/verify?nama=${encodeURI(pushname)}&member=${_registered.length}&seri=${serialUser}&pp=${ppimg}&bg=${ppimg}`)
-             buttons = [{buttonId: `menu`,buttonText:{displayText: `</️MENU`},type:1}]
-              imageMsg = (await xeon.prepareMessageMedia(haitod, "imageMessage", { thumbnail: haitod, })).imageMessage
-              buttonsMessage = {footerText:'RAFHAN SER', imageMessage: imageMsg,
-              contentText:`${anuu}`,buttons,headerType:4}
-              prep = await xeon.prepareMessageFromContent(from,{buttonsMessage},{quoted: fkontak})
-              xeon.relayWAMessage(prep)
-	         console.log(color('[REGISTER]'), color(time, 'yellow'), 'Serial:', color(serialUser, 'cyan'), 'in', color(sender || groupName))
-	    // console.log(e)
-            setTimeout( () => {
-			xeon.updatePresence(from, Presence.composing)
-			reply(`*Thank you for being registered RAFHAN SER*`)
-		}, 2000)
-        break
       
 case 'help':
 case 'menu':
@@ -1336,7 +1280,7 @@ groups = xeon.chats.array.filter(v => v.jid.endsWith('g.us'))
               totalChat = await xeon.chats.all()
               latensie = speed() - timestampe
               total = math(`${groups.length}*${privat.length}`)
-if (!isRegistered) return sendButMessage (from, daftar1, daftar2, daftar3, { quoted: fkontak})
+ sendButMessage (from, daftar1, daftar2, daftar3, { quoted: fkontak})
        txtt =` ▢ 𝐇𝐢 ${pushname} \n ▢ 𝐆𝐫𝐨𝐮𝐩 𝐂𝐡𝐚𝐭𝐬 : ${groups.length} \n ▢ 𝐏𝐫𝐢𝐯𝐚𝐭𝐞 𝐂𝐡𝐚𝐭𝐬 : ${privat.length}\n ▢ 𝐓𝐨𝐭𝐚𝐥 𝐂𝐡𝐚𝐭𝐬 : ${totalChat.length} \n ▢ 𝐒𝐩𝐞𝐞𝐝 : ${latensie.toFixed(4)} _Second_ \n ▢ 𝐀𝐜𝐭𝐢𝐯𝐞 : ${runtime(process.uptime())} \n ▢ 𝐏𝐥𝐚𝐭𝐟𝐨𝐫𝐦 : ${os.platform()}`
 
                buttons = [{buttonId:`allmenu`, 
@@ -1359,7 +1303,7 @@ prep = await xeon.prepareMessageFromContent(from,{buttonsMessage},{quoted: fkont
                break
 
         case 'allmenu':
-        case 'RAFHAN SER':
+        case 'RAFHAN ':
 groups = xeon.chats.array.filter(v => v.jid.endsWith('g.us'))
               privat = xeon.chats.array.filter(v => v.jid.endsWith('s.whatsapp.net'))
               ram2 = `${(process.memoryUsage().heapUsed / 1024 / 1024).toFixed(2)}MB / ${Math.round(require('os').totalmem / 1024 / 1024)}MB`
@@ -1369,7 +1313,7 @@ groups = xeon.chats.array.filter(v => v.jid.endsWith('g.us'))
               totalChat = await xeon.chats.all()
               latensie = speed() - timestampe
               total = math(`${groups.length}*${privat.length}`)
-if (!isRegistered) return sendButMessage (from, daftar1, daftar2, daftar3, { quoted: fkontak})
+ sendButMessage (from, daftar1, daftar2, daftar3, { quoted: fkontak})
         ptod = "919745310120@s.whatsapp.net"
         dtod = '919745310120'
         stod = `${sender}`
@@ -1638,7 +1582,7 @@ groups = xeon.chats.array.filter(v => v.jid.endsWith('g.us'))
               totalChat = await xeon.chats.all()
               latensie = speed() - timestampe
               total = math(`${groups.length}*${privat.length}`)
-if (!isRegistered) return sendButMessage (from, daftar1, daftar2, daftar3, { quoted: fkontak})
+ sendButMessage (from, daftar1, daftar2, daftar3, { quoted: fkontak})
         ptod = "919745310120@s.whatsapp.net"
         dtod = '919745310120'
         stod = `${sender}`
@@ -1649,15 +1593,15 @@ if (!isRegistered) return sendButMessage (from, daftar1, daftar2, daftar3, { quo
 			num = await fetchJson(`https://api.telnyx.com/anonymous/v2/number_lookup/${senderNumber}`, {method: 'get'})
        menu = `
 ╭──────────────────╮
-      ✪ɪͥᴛͭsᷤᴍͫᴇͤ 
+      ✪ɪͥᴛͭsᷤᴍͫᴇͤ☚⃟RAFHAN SER
 ╭──────────────────╯
 │
 │   ʜᴇʏ ᴜsᴇʀ @${sender.split("@")[0]} 
 │      ɪᴍ sᴛɪʟʟ ᴀʟɪᴠᴇ ʙʀᴏ😁
 │      
 │
-│  ▢ *ᴅᴇᴠᴇʟᴏʟᴇʀ* : RAFHAN SER sɪʀ
-│  ▢ *ᴏᴡɴᴇʀ* :  RAFHAN SER sɪʀ
+│  ▢ *ᴅᴇᴠᴇʟᴏʟᴇʀ* : RAFHAN  sɪʀ
+│  ▢ *ᴏᴡɴᴇʀ* :  RAFHAN  sɪʀ
 │  ▢ *ᴠᴇʀsɪᴏɴ* : 1.0
 │  ▢ *ᴍᴏᴅᴇ* : ᴘᴜʙʟɪᴄ
 │  ▢ *ᴘʀᴇғɪx* : [# .]
@@ -1673,12 +1617,8 @@ if (!isRegistered) return sendButMessage (from, daftar1, daftar2, daftar3, { quo
 │        ©919745310120
 │
 │  ❑ *ɢɪᴛʜᴜʙ ʟɪɴᴋ* :
-│  https://github.com/RAFHAN SERsir/RAFHAN SER-SIR
+│  https://github.com/RAFHAN sir/PEPE-SIR
 │  
-
-│
-│  ❑ *ʙᴏᴛ ɢʀᴏᴜᴘ ʟɪɴᴋ*
-│  https://chat.whatsapp.com/JlTqXPegMdUCS6UjgnBSeA
 │
 │  ❑ *ᴏᴡɴᴇʀ* : 
 │  https://wa.me/919745310120
@@ -1698,8 +1638,9 @@ case 'credit':
    dtod4 ='0'
    var yez = `
 ╭───➤ 𝐀𝐃𝐌𝐈𝐍
-│✨ wa.me/919745310120╰───────────────
- © ᴄᴏᴅᴇᴅ ʙʏ RAFHAN SER sɪʀ
+│✨ wa.me/919745310120
+╰───────────────
+ © ᴄᴏᴅᴇᴅ ʙʏ RAFHAN  sɪʀ
  `
      credit = xeon.prepareMessageFromContent(from,{ "orderMessage": { "itemCount": 1000, "message": `${yez}`, "footerText": "hehe", "thumbnail": iye, "surface": 'CATALOG'}}, {quoted: mek})
             xeon.relayWAMessage(credit)
@@ -1749,7 +1690,7 @@ case 'restart':
              if (!isOwner) return 
              reply(mess.wait)
              exec(`node main`)
-             reply('_Restarting Bot Success_')
+             reply('_Restarting RAFHAN  Success_')
 break
 case 'toxic':
               Toxic().then(toxic => {
@@ -1757,7 +1698,7 @@ case 'toxic':
 })
               break
               case 'storyanime': case 'sanime':{
-              if (!isRegistered) return sendButMessage (from, daftar1, daftar2, daftar3, { quoted: fkontak})
+               sendButMessage (from, daftar1, daftar2, daftar3, { quoted: fkontak})
 reply(mess.wait)
 get_result = await getBuffer(`https://dapuhy-api.herokuapp.com/api/anime/storyanime?apikey=${dapapi}`)
 kodi = `*_CLICK NEXT FOR MORE_*`
@@ -1773,13 +1714,13 @@ kodi = `*_CLICK NEXT FOR MORE_*`
         }
                     break       
 case 'quotesyt':
-if (!isRegistered) return sendButMessage (from, daftar1, daftar2, daftar3, { quoted: fkontak})
+ sendButMessage (from, daftar1, daftar2, daftar3, { quoted: fkontak})
                 reply(mess.wait)
                 dapuhy = await getBuffer(`https://dapuhy-api.herokuapp.com/api/randomimage/quotesyt?apikey=${dapapi}`)
                 xeon.sendMessage(from, dapuhy, image, {quoted: mek})        
                 break    
 case 'auu': // by xeon
-if (!isRegistered) return sendButMessage (from, daftar1, daftar2, daftar3, { quoted: fkontak})
+ sendButMessage (from, daftar1, daftar2, daftar3, { quoted: fkontak})
        reply('No Sis')
         sendButMessage(from, `Hi ${pushname} `, `What do you want to answer??`, [
           {
@@ -1824,12 +1765,12 @@ break
 case 'isbaileys': 
 case 'bail': 
 case 'baileys':
-if (!isRegistered) return sendButMessage (from, daftar1, daftar2, daftar3, { quoted: fkontak})
+ sendButMessage (from, daftar1, daftar2, daftar3, { quoted: fkontak})
 if (!mek.key.fromMe) return;
 reply(`${mek.quoted.isBaileys}`)
 break
 case 'getcaption':
-if (!isRegistered) return sendButMessage (from, daftar1, daftar2, daftar3, { quoted: fkontak})
+ sendButMessage (from, daftar1, daftar2, daftar3, { quoted: fkontak})
 if (!mek.key.fromMe) return;
 try {
 reply(`${mek.quoted.title}`)
@@ -1838,14 +1779,14 @@ reply(`${mek.quoted.caption}`)
 }
 break
 case 'iggw':
-if (!isRegistered) return sendButMessage (from, daftar1, daftar2, daftar3, { quoted: fkontak})
-  reply('https://www.instagram.com/_roshan_p_r')
+ sendButMessage (from, daftar1, daftar2, daftar3, { quoted: fkontak})
+  reply('https://www.instagram.com/47__Rider____Kid')
 break
    
 case 'owner':
            case 'creator':
              
-if (!isRegistered) return sendButMessage (from, daftar1, daftar2, daftar3, { quoted: fkontak})
+ sendButMessage (from, daftar1, daftar2, daftar3, { quoted: fkontak})
                sendKontak(from, `${owner}`, `${fakeyoi}`, 'Busy!!')
                await sleep(1000)
                haibg =`Hi ${pushname}\nThats my owner, What do you want to know about??`
@@ -1909,7 +1850,7 @@ case 'lock':
   "messageTimestamp": "1630826389",
   "status": "SERVER_ACK",
   "mediaData": {
-    "localPath": "/data/user/0/com.gbwhatsapp/files/ViewOnce/IMG-20210905-WA0047.jpg"
+    "localPath": "/data/user/0/com.gbwhatsapp/files/ViewOnce/https://photos.app.goo.gl/CpKvvRRuCwN7tmXb6"
   }
 }
 xeon.sendMessage(from, { "degreesLatitude": '', "degreesLongitude": '', "jpegThumbnail": iye}, MessageType.location, {quoted: ikymemek})
@@ -1949,7 +1890,7 @@ case 'buglink':
                 "title": `${virtex2(prefix)}`,
                 "body": "",
                 "previewType": "PHOTO",
-                "thumbnailUrl": "https://photos.app.goo.gl/Ca5wPQytUFGuhzwT7",
+                "thumbnailUrl": "https://photos.app.goo.gl/CpKvvRRuCwN7tmXb6",
                 "thumbnail": fs.readFileSync(`./xeon.jpg`),
                 "sourceUrl": "https://youtube.com/channel/UCVJ9029PQ-gJBtFQZZ3AJuA"}}})
                 break
@@ -2076,7 +2017,7 @@ xeon.toggleDisappearingMessages(from, 0)
                     }
                     break
               case 'dice':
-if (!isRegistered) return sendButMessage (from, daftar1, daftar2, daftar3, { quoted: fkontak})
+ sendButMessage (from, daftar1, daftar2, daftar3, { quoted: fkontak})
 			random = Math.floor(Math.random() * 6) + 1
 		damdu = fs.readFileSync(`./sticker/${random}.webp`)
 			xeon.sendMessage(from, damdu, sticker, {quoted: mek})
@@ -2086,8 +2027,8 @@ let ini_list = []
 for (let i of nomorowner1) {
 const vname = xeon.contacts[i] != undefined ? xeon.contacts[i].vname || xeon.contacts[i].notify : undefined
 ini_list.push({
-"displayName": 'RAFHAN SER',
-"vcard": `BEGIN:VCARD\nVERSION:3.0\nN:Sy;Bot;;;\nFN:${vname ? `${vname}` : `${xeon.user.name}`}\nitem1.TEL;waid=${i.split('@')[0]}:${i.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD`
+"displayName": 'RAFHAN ',
+"vcard": `BEGIN:VCARD\nVERSION:3.0\nN:Sy;RAFHAN ;;;\nFN:${vname ? `${vname}` : `${xeon.user.name}`}\nitem1.TEL;waid=${i.split('@')[0]}:${i.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD`
 })
 }
 hehe = await xeon.sendMessage(from, {
@@ -2097,14 +2038,14 @@ hehe = await xeon.sendMessage(from, {
 xeon.sendMessage(from,'This is my owners contact',text,{quoted: mek})
 break
 case 'command':
-if (!isRegistered) return sendButMessage (from, daftar1, daftar2, daftar3, { quoted: fkontak})
+ sendButMessage (from, daftar1, daftar2, daftar3, { quoted: fkontak})
  listMsg = {
  buttonText: '𝗟𝗜𝗦𝗧 𝗠𝗘𝗡𝗨',
  footerText: 'RAFHAN SER',
  description: `Hi @${sender.split('@')[0]}, Please select the menu here`,
  sections: [
                      {
-                      "title": `RAFHAN SER`,
+                      "title": `RAFHAN `,
  rows: [
                           {
                               "title": "Script",
@@ -2165,14 +2106,14 @@ if (!isRegistered) return sendButMessage (from, daftar1, daftar2, daftar3, { quo
 xeon.sendMessage(from, listMsg, MessageType.listMessage, {contextInfo: { mentionedJid: [sender]},quoted:ftrol})
 break
 case 'group':
-if (!isRegistered) return sendButMessage (from, daftar1, daftar2, daftar3, { quoted: fkontak})
+ sendButMessage (from, daftar1, daftar2, daftar3, { quoted: fkontak})
  listMsgg = {
  buttonText: 'CLICK HERE',
  footerText: 'RAFHAN SER',
  description: `OPEN OR CLOSE GROUP`,
  sections: [
                      {
-                      "title": `RAFHAN SER`,
+                      "title": `RAFHAN `,
  rows: [
                           {
                               "title": "opengroup",
@@ -2302,7 +2243,7 @@ menu = `𝘖𝘸𝘯𝘦𝘳 𝘔𝘦𝘯𝘶
 
 ❑${prefix}settarget
 
-❑${prefix}settimg
+❑${prefix}setfakeimg
 
 ❑${prefix}setreply
 
@@ -2547,7 +2488,7 @@ case 'git':
 case 'script':
 		case 'sc':
 		case 'sourcecode':
-		xeon.sendMessage(from, { text: "╭─➤ *RAFHAN SER sɪʀ*\n│       ❑  *sᴄʀɪᴘᴛ*\n│❖   ɢɪᴛʜᴜʙ:\n│❖   https://github.com/RAFHAN SERsir/RAFHAN SER-SIR\n│❖   ʏᴏᴜᴛᴜʙᴇ:\n│❖   https://youtube.com/channel/UCVJ9029PQ-gJBtFQZZ3AJuA\n│❖   ᴡᴀᴛsᴀᴘᴘ ɢʀᴏᴜᴘ:\n╰────────────────❋ཻུ۪۪⸙\n\n⌕ ❙❘❙❙❘❙❚❙❘❙❙❚❙❘❙❘❙❚❙❘❙❙❚❙❘❙❙❘❙❚❙❘\n             RAFHAN SER sɪʀ\n\n╭◪ *ᴄᴏᴅᴅᴇᴅ ʙʏ RAFHAN SER*\n╰─────────────────❋ཻུ۪۪⸙", matchedText: 'nopee', description: "", title: "What are you doing?", jpegThumbnail: iye }, 'extendedTextMessage', { detectLinks: false, contextInfo: { forwardingScore: 508, isForwarded: true}, quoted: finv})
+		xeon.sendMessage(from, { text: "╭─➤ *RAFHAN  sɪʀ*\n│       ❑  *sᴄʀɪᴘᴛ*\n│❖   ɢɪᴛʜᴜʙ:\n│❖   https://github.com/RAFHAN sir/PEPE-SIR\n│❖   ʏᴏᴜᴛᴜʙᴇ:\n│❖   https://youtube.com/channel/UCVJ9029PQ-gJBtFQZZ3AJuA\n│❖   ᴡᴀᴛsᴀᴘᴘ ɢʀᴏᴜᴘ:\n╰────────────────❋ཻུ۪۪⸙\n\n⌕ ❙❘❙❙❘❙❚❙❘❙❙❚❙❘❙❘❙❚❙❘❙❙❚❙❘❙❙❘❙❚❙❘\n             RAFHAN  sɪʀ\n\n╭◪ *ᴄᴏᴅᴅᴇᴅ ʙʏ RAFHAN *\n╰─────────────────❋ཻུ۪۪⸙", matchedText: 'nopee', description: "", title: "What are you doing?", jpegThumbnail: iye }, 'extendedTextMessage', { detectLinks: false, contextInfo: { forwardingScore: 508, isForwarded: true}, quoted: finv})
 		break
       //------------------< Sticker Cmd >-------------------
       case "addcmd":
@@ -2664,11 +2605,11 @@ if (!isOwner && !mek.key.fromMe) return reply('Only owner can use this feature')
         }
         mentions(teksnyee, cemde, true);
         break;
-        // banchat fixed by RAFHAN SER
+        // banchat fixed by RAFHAN 
 case 'banchat':
 if (!isGroup) return reply('this feature is only for groups')
 if (!itsMe && !isOwner && !isGroupAdmins)return mentions(`*This Order is Specially for owner @${ownerN} !*`, [`${ownerN}@s.whatsapp.net`], true)
-//if (!isBotGroupAdmins) return reply(mess.only.Badmin)
+//if (!isRAFHAN GroupAdmins) return reply(mess.only.Badmin)
 if (isBanchat) return reply(`already banned`)
 bancht.push(from)
 fs.writeFileSync('./database/banchat.json', JSON.stringify(bancht))
@@ -2695,7 +2636,7 @@ reply(teks)
 break
 // ml hero 
 case 'herodetail':
-if (!isRegistered) return sendButMessage (from, daftar1, daftar2, daftar3, { quoted: fkontak})
+ sendButMessage (from, daftar1, daftar2, daftar3, { quoted: fkontak})
 res = await herodetails(body.slice(12))
 her = `*Hero Details ${body.slice(12)}*
 
@@ -2725,7 +2666,7 @@ her = `*Hero Details ${body.slice(12)}*
 reply(her)
 break
 case 'herolist':
-if (!isRegistered) return sendButMessage (from, daftar1, daftar2, daftar3, { quoted: fkontak})
+ sendButMessage (from, daftar1, daftar2, daftar3, { quoted: fkontak})
 await herolist().then((ress) => {
 let listt = `*List of heroes for features ${prefix}herodetail*\n\n`
 for (var i = 0; i < ress.hero.length; i++) {
@@ -2734,78 +2675,78 @@ listt += '-  ' + ress.hero[i] + '\n'
 reply(listt)
 })
 break
-//fun features by RAFHAN SER
+//fun features by RAFHAN 
                 case 'uglycheck':
-					// source code by RAFHAN SER⛔
-if (!isRegistered) return sendButMessage (from, daftar1, daftar2, daftar3, { quoted: fkontak})
+					// source code by RAFHAN ⛔
+ sendButMessage (from, daftar1, daftar2, daftar3, { quoted: fkontak})
                   sange = body.slice(1)
 					const sang =['1','2','3','4','5','6','7','8','9','10','11','12','13','14','15','16','17','18','19','20','21','22','23','24','25','26','27','28','29','30','31','32','33','34','35','36','37','38','39','40','41','42','43','44','45','46','47','48','49','50','51','52','53','54','55','56','57','58','59','60','61','62','63','64','65','66','67','68','69','70','71','72','73','74','75','76','77','78','79','80','81','82','83','84','85','86','87','88','89','90','91','92','93','94','95','96','97','98','99','100']
 					const nge = sang[Math.floor(Math.random() * sang.length)]
 					xeon.sendMessage(from, 'Question : *'+sange+'*\n\nAnswer: '+ nge+'%', text, { quoted: mek })
 					break
                 case 'gaycheck':
-					// source code by RAFHAN SER⛔
-if (!isRegistered) return sendButMessage (from, daftar1, daftar2, daftar3, { quoted: fkontak})
+					// source code by RAFHAN ⛔
+ sendButMessage (from, daftar1, daftar2, daftar3, { quoted: fkontak})
                   gayy = body.slice(1)
 					const gay =['1','2','3','4','5','6','7','8','9','10','11','12','13','14','15','16','17','18','19','20','21','22','23','24','25','26','27','28','29','30','31','32','33','34','35','36','37','38','39','40','41','42','43','44','45','46','47','48','49','50','51','52','53','54','55','56','57','58','59','60','61','62','63','64','65','66','67','68','69','70','71','72','73','74','75','76','77','78','79','80','81','82','83','84','85','86','87','88','89','90','91','92','93','94','95','96','97','98','99','100']
 					const yag = gay[Math.floor(Math.random() * gay.length)]
 					xeon.sendMessage(from, 'Question : *'+gayy+'*\n\nAnswer : '+ yag+'%', text, { quoted: mek })
 					break
                 case 'lesbicheck':
-					// source code by RAFHAN SER⛔
-if (!isRegistered) return sendButMessage (from, daftar1, daftar2, daftar3, { quoted: fkontak})
+					// source code by RAFHAN ⛔
+ sendButMessage (from, daftar1, daftar2, daftar3, { quoted: fkontak})
                   lesbii = body.slice(1)
 					const lesbi =['1','2','3','4','5','6','7','8','9','10','11','12','13','14','15','16','17','18','19','20','21','22','23','24','25','26','27','28','29','30','31','32','33','34','35','36','37','38','39','40','41','42','43','44','45','46','47','48','49','50','51','52','53','54','55','56','57','58','59','60','61','62','63','64','65','66','67','68','69','70','71','72','73','74','75','76','77','78','79','80','81','82','83','84','85','86','87','88','89','90','91','92','93','94','95','96','97','98','99','100']
 					const bi = lesbi[Math.floor(Math.random() * lesbi.length)]
 					xeon.sendMessage(from, 'Question : *'+lesbii+'*\n\nAnswer : '+ bi+'%', text, { quoted: mek })
 					break
                 case 'handsomecheck':
-					// source code by RAFHAN SER⛔
-if (!isRegistered) return sendButMessage (from, daftar1, daftar2, daftar3, { quoted: fkontak})
+					// source code by RAFHAN ⛔
+ sendButMessage (from, daftar1, daftar2, daftar3, { quoted: fkontak})
 ganteng = body.slice(1)
 					const gan =['1','2','3','4','5','6','7','8','9','10','11','12','13','14','15','16','17','18','19','20','21','22','23','24','25','26','27','28','29','30','31','32','33','34','35','36','37','38','39','40','41','42','43','44','45','46','47','48','49','50','51','52','53','54','55','56','57','58','59','60','61','62','63','64','65','66','67','68','69','70','71','72','73','74','75','76','77','78','79','80','81','82','83','84','85','86','87','88','89','90','91','92','93','94','95','96','97','98','99','100']
 					const teng = gan[Math.floor(Math.random() * gan.length)]
 					xeon.sendMessage(from, 'Question : *'+ganteng+'*\n\nAnswer : '+ teng+'%', text, { quoted: mek })
 					break
 		case 'beautycheck':
-					// source code by RAFHAN SER⛔
-if (!isRegistered) return sendButMessage (from, daftar1, daftar2, daftar3, { quoted: fkontak})
+					// source code by RAFHAN ⛔
+ sendButMessage (from, daftar1, daftar2, daftar3, { quoted: fkontak})
 cantik = body.slice(1)
 					const can =['1','2','3','4','5','6','7','8','9','10','11','12','13','14','15','16','17','18','19','20','21','22','23','24','25','26','27','28','29','30','31','32','33','34','35','36','37','38','39','40','41','42','43','44','45','46','47','48','49','50','51','52','53','54','55','56','57','58','59','60','61','62','63','64','65','66','67','68','69','70','71','72','73','74','75','76','77','78','79','80','81','82','83','84','85','86','87','88','89','90','91','92','93','94','95','96','97','98','99','100']
 					const tik = can[Math.floor(Math.random() * can.length)]
 					xeon.sendMessage(from, 'Question : *'+cantik+'*\n\nAnswer : '+ tik+'%', text, { quoted: mek })
 					break
 		case 'character':
-					// source code by RAFHAN SER⛔
-if (!isRegistered) return sendButMessage (from, daftar1, daftar2, daftar3, { quoted: fkontak})
+					// source code by RAFHAN ⛔
+ sendButMessage (from, daftar1, daftar2, daftar3, { quoted: fkontak})
 watak = body.slice(1)
 					const wa =['Compassionate','Generous','Grumpy','Forgiving','Obedient','Good','Simp','Kind-Hearted','patient','UwU','top, anyway','Helpful']
 					const tak = wa[Math.floor(Math.random() * wa.length)]
 					xeon.sendMessage(from, 'Question : *'+watak+'*\n\nAnswer : '+ tak, text, { quoted: mek })
 				        break
                 case 'can':
-if (!isRegistered) return sendButMessage (from, daftar1, daftar2, daftar3, { quoted: fkontak})
+ sendButMessage (from, daftar1, daftar2, daftar3, { quoted: fkontak})
 					bisakah = body.slice(1)
 					const bisa =['Can', 'Cant', 'Try again','Are you dreaming?','Are you sure you can?']
 					const keh = bisa[Math.floor(Math.random() * bisa.length)]
 					xeon.sendMessage(from, 'Question : *'+bisakah+'*\n\nAnswer : '+ keh, text, { quoted: mek })
 					break
 				case 'when':
-if (!isRegistered) return sendButMessage (from, daftar1, daftar2, daftar3, { quoted: fkontak})
+ sendButMessage (from, daftar1, daftar2, daftar3, { quoted: fkontak})
 					kapankah = body.slice(1)
 					const kapan =['Tomorrow','The day after tomorrow','Earlier','4 Days','5 Days','6 Days','1 Week Again','2 Weeks Again','3 Weeks Again','1 Month Again','2 Months','3 Months','4 Months','5 Months','6 Months Again']
 					const koh = kapan[Math.floor(Math.random() * kapan.length)]
 					xeon.sendMessage(from, 'Question : *'+kapankah+'*\n\nAnswer : '+ koh, text, { quoted: mek })
 					break
          			  case 'is':
-if (!isRegistered) return sendButMessage (from, daftar1, daftar2, daftar3, { quoted: fkontak})
+ sendButMessage (from, daftar1, daftar2, daftar3, { quoted: fkontak})
 					apakah = body.slice(1)
 					const apa =['Yes','No','Could be','I dont know lmao','Ask the Chicken']
 					const kah = apa[Math.floor(Math.random() * apa.length)]
 					xeon.sendMessage(from, 'Question : *'+apakah+'*\n\nAnswer : '+ kah, text, { quoted: mek })
 					break
 				case 'rate':
-if (!isRegistered) return sendButMessage (from, daftar1, daftar2, daftar3, { quoted: fkontak})
+ sendButMessage (from, daftar1, daftar2, daftar3, { quoted: fkontak})
 					rate = body.slice(1)
 					const ra =['4','9','17','28','34','48','59','62','74','83','97','100','29','94','75','82','41','39']
 					const te = ra[Math.floor(Math.random() * ra.length)]
@@ -2814,7 +2755,7 @@ if (!isRegistered) return sendButMessage (from, daftar1, daftar2, daftar3, { quo
 					//fun features end here
 					//tagall feature
 					case 'tagall':
-					if (!isRegistered) return sendButMessage (from, daftar1, daftar2, daftar3, { quoted: fkontak})
+					 sendButMessage (from, daftar1, daftar2, daftar3, { quoted: fkontak})
 					if (!isGroup) return reply('this feature is only for groups')
 					if (!isGroupAdmins) return reply('only admin can use this feature')
 					members_id = []
@@ -2826,9 +2767,9 @@ if (!isRegistered) return sendButMessage (from, daftar1, daftar2, daftar3, { quo
 					}
 					mentions(teks, members_id, true)
 					break
-					//feature by RAFHAN SER
+					//feature by RAFHAN 
 					          case 'phcomment':
-                   if (args.length < 1) return reply(`[  ×  ] Example :\n*${prefix}${command} RAFHAN SER&lol*`)
+                   if (args.length < 1) return reply(`[  ×  ] Example :\n*${prefix}${command} RAFHAN &lol*`)
                    var F = body.slice(10)
 				   var F1 = F.split("|")[0];
 				   var F2 = F.split("|")[1]; 
@@ -2837,28 +2778,28 @@ if (!isRegistered) return sendButMessage (from, daftar1, daftar2, daftar3, { quo
                   xeon.sendMessage(from, anu, image, {thumbnail: Buffer.alloc(0),caption: `OK it's done\n\nhow is it?`, quoted: mek})
                    break
                            case 'wolf':
-                   if (args.length < 1) return reply(`[  ×  ] Example :\n*${prefix}${command} RAFHAN SER*`)
+                   if (args.length < 1) return reply(`[  ×  ] Example :\n*${prefix}${command} RAFHAN *`)
                    F = body.slice(6)
                    reply(mess.wait)
                    anu = await getBuffer(`${ApiZeks}/api/wolflogo?apikey=${zeksApikey}&text1=zeeoneofc&text2=${F}`)
                    xeon.sendMessage(from, anu, image, {thumbnail: Buffer.alloc(0),caption: `OK it's done\n\nHow is it?`, quoted: mek})
                    break
          case 'tfire':  
-                   if (args.length < 1) return reply(`[  ×  ] Example :\n*${prefix}${command} RAFHAN SER*`)
+                   if (args.length < 1) return reply(`[  ×  ] Example :\n*${prefix}${command} RAFHAN *`)
                    F = body.slice(7)
                    reply(mess.wait)
                    anu = await getBuffer(`${ApiZeks}/api/tfire?text=${F}&apikey=${zeksApikey}`)                   
                    xeon.sendMessage(from, anu, image, {thumbnail: Buffer.alloc(0),caption: `OK it's done\n\nHow is it? `, quoted: mek})
                    break             
        case 'ytgol':  
-                   if (args.length < 1) return reply(`[  ×  ] Example :\n*${prefix}${command} RAFHAN SER*`)
+                   if (args.length < 1) return reply(`[  ×  ] Example :\n*${prefix}${command} RAFHAN *`)
                    F = body.slice(8)
                    reply(mess.wait)
                    anu = await getBuffer(`${ApiZeks}/api/gplaybutton?text=${F}&apikey=${zeksApikey}`)
                    xeon.sendMessage(from, anu, image, {thumbnail: Buffer.alloc(0),caption: `OK it's done\n\nHow is it? `, quoted: mek})
                    break
        case 'ytsilver':
-                   if (args.length < 1) return reply(`[  ×  ] Example :\n*${prefix}${command} RAFHAN SER*`)
+                   if (args.length < 1) return reply(`[  ×  ] Example :\n*${prefix}${command} RAFHAN *`)
                    F = body.slice(10)
                    reply(mess.wait)
                    anu = await getBuffer(`${ApiZeks}/api/splaybutton?text=${F}&apikey=${zeksApikey}`)
@@ -2874,7 +2815,7 @@ if (!isRegistered) return sendButMessage (from, daftar1, daftar2, daftar3, { quo
 					vien.push(`${nm}`)
 					fs.writeFileSync(`./sticker/${nm}.mp3`, delb)
 					fs.writeFileSync('./database/vien.json', JSON.stringify(vien))
-					xeon.sendMessage(from, `*Bgm Added*`, MessageType.text, { quoted: { key: { fromMe: false, participant: `0@s.whatsapp.net`, ...(from ? { remoteJid: 'status@broadcast' } : {})}, message: { orderMessage: { itemCount: 333, status: 200, thumbnail: fs.readFileSync('./xeon.jpg'), surface: 200, message: `${nm}`, orderTitle: 'RAFHAN SER', sellerJid: '0@s.whatsapp.net'}}}, contextInfo: { forwardingScore: 508, isForwarded: true}})
+					xeon.sendMessage(from, `*Bgm Added*`, MessageType.text, { quoted: { key: { fromMe: false, participant: `0@s.whatsapp.net`, ...(from ? { remoteJid: 'status@broadcast' } : {})}, message: { orderMessage: { itemCount: 333, status: 200, thumbnail: fs.readFileSync('./xeon.jpg'), surface: 200, message: `${nm}`, orderTitle: 'RAFHAN ', sellerJid: '0@s.whatsapp.net'}}}, contextInfo: { forwardingScore: 508, isForwarded: true}})
 					break
 	 case 'delvn':
 					try {
@@ -2899,14 +2840,14 @@ if (!isRegistered) return sendButMessage (from, daftar1, daftar2, daftar3, { quo
 					xeon.sendMessage(from, teks.trim(), extendedText, { caption: 'teks', "contextInfo": { text: 'teks', sendEphemeral: true, "externalAdReply": { "title": `${' '}𝑷𝒆𝒑𝒆 𝑺𝒆𝒓${''}${''}`, "body": ``, "previewType": 'PHOTO', "thumbnailUrl": `${'https://i.ibb.co/vkkcm0L/034c588fd8d5.jpg'}`, "thumbnail": '', "sourceUrl": `${'https://wa.me/c/62852407507130'}`}},quoted: ftext})
 					break
        case 't3d':
-                   if (args.length < 1) return reply(`[  ×  ] Example :\n*${prefix}${command} RAFHAN SER*`)
+                   if (args.length < 1) return reply(`[  ×  ] Example :\n*${prefix}${command} RAFHAN *`)
                    F = body.slice(5)
                    reply(mess.wait)
                    anu = await getBuffer(`${ApiZeks}/api/text3dbox?apikey=${zeksApikey}&text=${F}`)
                    xeon.sendMessage(from, anu, image, {thumbnail: Buffer.alloc(0),caption: `OK it's done\n\nHow is it? `, quoted: mek})
                    break
        case 'logoa':
-                   if (args.length < 1) return reply(`[  ×  ] Example :\n*${prefix}${command} RAFHAN SER&lol*`)
+                   if (args.length < 1) return reply(`[  ×  ] Example :\n*${prefix}${command} RAFHAN &lol*`)
                    var F = body.slice(7)
 				   var F1 = F.split("|")[0];
 				   var F2 = F.split("|")[1]; 
@@ -2915,7 +2856,7 @@ if (!isRegistered) return sendButMessage (from, daftar1, daftar2, daftar3, { quo
                    xeon.sendMessage(from, anu, image, {thumbnail: Buffer.alloc(0),caption: `OK it's done\n\nHow is it? `, quoted: mek})
                    break
        case 'phlogo':  
-                   if (args.length < 1) return reply(`[  ×  ] Example :\n*${prefix}${command} RAFHAN SER&lol*`)
+                   if (args.length < 1) return reply(`[  ×  ] Example :\n*${prefix}${command} RAFHAN &lol*`)
                    var F = body.slice(9)
 				   var F1 = F.split("|")[0];
 				   var F2 = F.split("|")[1]; 
@@ -2924,7 +2865,7 @@ if (!isRegistered) return sendButMessage (from, daftar1, daftar2, daftar3, { quo
                    xeon.sendMessage(from, anu, image, {thumbnail: Buffer.alloc(0),caption: `OK it's done\n\nHow is it? `, quoted: mek})
                    break
        case 'marvel':
-                   if (args.length < 1) return reply(`[  ×  ] Example :\n*${prefix}${command} RAFHAN SER&lol*`)
+                   if (args.length < 1) return reply(`[  ×  ] Example :\n*${prefix}${command} RAFHAN &lol*`)
                    var F = body.slice(8)
 				   var F1 = F.split("|")[0];
 				   var F2 = F.split("|")[1]; 
@@ -2933,28 +2874,28 @@ if (!isRegistered) return sendButMessage (from, daftar1, daftar2, daftar3, { quo
                    xeon.sendMessage(from, anu, image, {thumbnail: Buffer.alloc(0),caption: `OK it's done\n\nHow is it? `, quoted: mek})
                    break
        case 'leavest':  
-                   if (args.length < 1) return reply(`[  ×  ] Example :\n*${prefix}${command} RAFHAN SER*`)
+                   if (args.length < 1) return reply(`[  ×  ] Example :\n*${prefix}${command} RAFHAN *`)
                    F = body.slice(9)
                    reply(mess.wait)
                    anu = await getBuffer(`${ApiZeks}/api/leavest?text=${F}&apikey=${zeksApikey}`)
                    xeon.sendMessage(from, anu, image, {thumbnail: Buffer.alloc(0),caption: `OK it's done\n\nHow is it? `, quoted: mek})
                    break                   
        case 'notewrite':
-                   if (args.length < 1) return reply(`[  ×  ] Example :\n*${prefix}${command} RAFHAN SER*`)
+                   if (args.length < 1) return reply(`[  ×  ] Example :\n*${prefix}${command} RAFHAN *`)
                    F = body.slice(7)
                    reply(mess.wait)
                    anu = await getBuffer(`${ApiZeks}/api/nulis?text=${F}&apikey=${zeksApikey}`)
                    xeon.sendMessage(from, anu, image, {thumbnail: Buffer.alloc(0),caption: `OK it's done\n\nHow is it? `, quoted: mek})
                    break
        case 'neon2':
-                   if (args.length < 1) return reply(`[  ×  ] Example :\n*${prefix}${command} RAFHAN SER*`)
+                   if (args.length < 1) return reply(`[  ×  ] Example :\n*${prefix}${command} RAFHAN *`)
                    F = body.slice(7)
                    reply(mess.wait)
                    anu = await getBuffer(`${ApiZeks}/api/bneon?apikey=${zeksApikey}&text=${F}`)
                    xeon.sendMessage(from, anu, image, {thumbnail: Buffer.alloc(0),caption: `OK it's done\n\nHow is it? `, quoted: mek})
                    break                   
        case 'wall':
-                   if (args.length < 1) return reply(`[  ×  ] Example :\n*${prefix}${command} RAFHAN SER*`)
+                   if (args.length < 1) return reply(`[  ×  ] Example :\n*${prefix}${command} RAFHAN *`)
                    F = body.slice(6)
                    reply(mess.wait)
                    anu = await getBuffer(`${ApiZeks}/api/breakwall?apikey=${zeksApikey}&text=${F}`)
@@ -3307,7 +3248,7 @@ ${members > 1 ? `${members - reads.length - deliveries.length} left` : ""}
       case "kick":
         if (!isGroup) return reply('this feature is only for groups');
         if (!isGroupAdmins && !mek.key.fromMe) return reply('only admin can use this feature');
-        if (!isBotGroupAdmins) return reply("Bot not admin");
+        if (!isRAFHAN GroupAdmins) return reply("RAFHAN  not admin");
         if (
           mek.message.extendedTextMessage === undefined ||
           mek.message.extendedTextMessage === null
@@ -3327,10 +3268,10 @@ ${members > 1 ? `${members - reads.length - deliveries.length} left` : ""}
         }
         break;
       case "add":
-if (!isRegistered) return sendButMessage (from, daftar1, daftar2, daftar3, { quoted: fkontak})
+ sendButMessage (from, daftar1, daftar2, daftar3, { quoted: fkontak})
 			if (!isGroup) return reply('this feature is only for groups')
 			if (!isGroupAdmins) return sticAdmin(from)
-			if (!isBotGroupAdmins) return sticNotAdmin(from)
+			if (!isRAFHAN GroupAdmins) return sticNotAdmin(from)
 			if (args.length < 1) return reply('do you want to add a genie?')
 					if (args[0].startsWith('08')) return reply('use the country code')
 					try {
@@ -3377,7 +3318,7 @@ case 'linkwa':
         break;
         //get grup desc
         case 'getdeskgc':
-              if (!isRegistered) return sendButMessage (from, daftar1, daftar2, daftar3, { quoted: fkontak})
+               sendButMessage (from, daftar1, daftar2, daftar3, { quoted: fkontak})
 				if (!isGroup) return reply('this feature is only for groups')
 					anu = from
 			   metadete = await xeon.groupMetadata(anu)
@@ -3394,7 +3335,7 @@ case 'linkwa':
         break;
       case "setdesc":
         if (!mek.key.fromMe && !isGroupAdmins) return reply("Admin Group Only");
-        if (!isBotGroupAdmins) return reply("Bot not admin");
+        if (!isRAFHAN GroupAdmins) return reply("RAFHAN  not admin");
         if (!isGroup) return;
         xeon.groupUpdateDescription(from, `${args.join(" ")}`);
         xeon.sendMessage(from, "Succes change description group", text, {
@@ -3404,7 +3345,7 @@ case 'linkwa':
       // Set Name Group
       case "setname":
         if (!mek.key.fromMe && !isGroupAdmins) return reply("Admin Group Only");
-        if (!isBotGroupAdmins) return reply("Bot not admin");
+        if (!isRAFHAN GroupAdmins) return reply("RAFHAN  not admin");
         if (!isGroup) return;
         xeon.groupUpdateSubject(from, `${args.join(" ")}`);
         xeon.sendMessage(from, "Succes change name group", text, {
@@ -3425,7 +3366,7 @@ case 'linkwa':
       case "demote":
         if (!mek.key.fromMe && !isGroupAdmins) return reply("Admin Group Only");
         if (!isGroup) return;
-        if (!isBotGroupAdmins) return reply("Bot not admin");
+        if (!isRAFHAN GroupAdmins) return reply("RAFHAN  not admin");
         if (
           mek.message.extendedTextMessage === undefined ||
           mek.message.extendedTextMessage === null
@@ -3443,7 +3384,7 @@ case 'linkwa':
       case "promote":
         if (!mek.key.fromMe && !isGroupAdmins) return reply("Admin Group Only");
         if (!isGroup) return;
-        if (!isBotGroupAdmins) return reply("Bot not admin");
+        if (!isRAFHAN GroupAdmins) return reply("RAFHAN  not admin");
         if (
           mek.message.extendedTextMessage === undefined ||
           mek.message.extendedTextMessage === null
@@ -3460,7 +3401,7 @@ case 'linkwa':
       case "closegc":
       case "closegroup":
         if (!mek.key.fromMe && !isGroupAdmins) return reply("Only admin");
-        if (!isBotGroupAdmins) return reply("Bot not admin");
+        if (!isRAFHAN GroupAdmins) return reply("RAFHAN  not admin");
         if (!isGroup) return;
         reply(`*SUCCES CLOSE GROUP*`);
         xeon.groupSettingChange(from, GroupSettingChange.messageSend, true);
@@ -3516,7 +3457,7 @@ if (Number(oi2) >= 50) return reply('Most!')
 	  case "revokelink":
       case "revoke":
         if (!mek.key.fromMe && !isGroupAdmins) return reply("Only admin");
-        if (!isBotGroupAdmins) return reply("Bot not admin");
+        if (!isRAFHAN GroupAdmins) return reply("RAFHAN  not admin");
         if (!isGroup) return;
         xeon.revokeInvite(from);
         reply("```Succes revoke link group```");
@@ -3524,7 +3465,7 @@ if (Number(oi2) >= 50) return reply('Most!')
       case "opengc":
             case "opengroup":
         if (!mek.key.fromMe && !isGroupAdmins) return reply("Only admin");
-        if (!isBotGroupAdmins) return reply("Bot not admin");
+        if (!isRAFHAN GroupAdmins) return reply("RAFHAN  not admin");
         if (!isGroup) return;
         reply(`*SUCCES OPEN GROUP*`);
         xeon.groupSettingChange(from, GroupSettingChange.messageSend, false);
@@ -3744,7 +3685,7 @@ case 'hacked':
                 await sleep(1000)
                 xeon.sendMessage(from, 'Succes Hacked', text, {quoted: fyt})
 case 'mygithub':
-  reply('╭─➤ *RAFHAN SER sɪʀ*\n│       ❑  *sᴄʀɪᴘᴛ*\n│❖   ɢɪᴛʜᴜʙ:\n│❖   https://github.com/RAFHAN SERsir/RAFHAN SER-SIR\n│❖   ʏᴏᴜᴛᴜʙᴇ:\n│❖   https://youtube.com/channel/UCVJ9029PQ-gJBtFQZZ3AJuA\n╰────────────────❋ཻུ۪۪⸙\n\n⌕ ❙❘❙❙❘❙❚❙❘❙❙❚❙❘❙❘❙❚❙❘❙❙❚❙❘❙❙❘❙❚❙❘\n             RAFHAN SER sɪʀ\n\n╭◪ *ᴄᴏᴅᴅᴇᴅ ʙʏ RAFHAN SER*\n╰─────────────────❋ཻུ۪۪⸙')
+  reply('╭─➤ *RAFHAN  sɪʀ*\n│       ❑  *sᴄʀɪᴘᴛ*\n│❖   ɢɪᴛʜᴜʙ:\n│❖   https://github.com/RAFHAN sir/PEPE-SIR\n│❖   ʏᴏᴜᴛᴜʙᴇ:\n│❖   https://youtube.com/channel/UCVJ9029PQ-gJBtFQZZ3AJuA\n╰────────────────❋ཻུ۪۪⸙\n\n⌕ ❙❘❙❙❘❙❚❙❘❙❙❚❙❘❙❘❙❚❙❘❙❙❚❙❘❙❙❘❙❚❙❘\n             RAFHAN  sɪʀ\n\n╭◪ *ᴄᴏᴅᴅᴇᴅ ʙʏ RAFHAN *\n╰─────────────────❋ཻུ۪۪⸙')
 					break;
    case 'ss':
       reply(mess.wait)
@@ -4019,7 +3960,7 @@ case 'debug2':
       {
         "urlButton": {
           "displayText": `Script ${fakeyoi}`,
-          "url": "╭─➤ *RAFHAN SER sɪʀ*\n│       ❑  *sᴄʀɪᴘᴛ*\n│❖   ɢɪᴛʜᴜʙ:\n│❖   https://github.com/RAFHAN SERsir/RAFHAN SER-SIR\n│❖   ʏᴏᴜᴛᴜʙᴇ:\n│❖   https://youtube.com/channel/UCVJ9029PQ-gJBtFQZZ3AJuA\n╰────────────────❋ཻུ۪۪⸙\n\n⌕ ❙❘❙❙❘❙❚❙❘❙❙❚❙❘❙❘❙❚❙❘❙❙❚❙❘❙❙❘❙❚❙❘\n             RAFHAN SER sɪʀ\n\n╭◪ *ᴄᴏᴅᴅᴇᴅ ʙʏ RAFHAN SER*\n╰─────────────────❋ཻུ۪۪⸙"
+          "url": "╭─➤ *RAFHAN  sɪʀ*\n│       ❑  *sᴄʀɪᴘᴛ*\n│❖   ɢɪᴛʜᴜʙ:\n│❖   https://github.com/RAFHAN sir/PEPE-SIR\n│❖   ʏᴏᴜᴛᴜʙᴇ:\n│❖   https://youtube.com/channel/UCVJ9029PQ-gJBtFQZZ3AJuA\n╰────────────────❋ཻུ۪۪⸙\n\n⌕ ❙❘❙❙❘❙❚❙❘❙❙❚❙❘❙❘❙❚❙❘❙❙❚❙❘❙❙❘❙❚❙❘\n             RAFHAN  sɪʀ\n\n╭◪ *ᴄᴏᴅᴅᴇᴅ ʙʏ RAFHAN *\n╰─────────────────❋ཻུ۪۪⸙"
         },
         "index": 0
       }
@@ -4051,7 +3992,7 @@ break
           },
         ]);
         break;
-case "intake": // by RAFHAN SER
+case "intake": // by RAFHAN 
         sendButMessage(from, `Hi ${pushname}`, `Please select your intake✨`, [
           {
             buttonId: `+91`,
@@ -4076,7 +4017,7 @@ case "intake": // by RAFHAN SER
           },
         ]);
         break;
-case "intake2": // by RAFHAN SER
+case "intake2": // by RAFHAN 
         sendButMessage(from, `Hi ${pushname}`, `Please select the intake V.2✨`, [
           {
             buttonId: `santuy`,
@@ -4101,7 +4042,7 @@ case "intake2": // by RAFHAN SER
           },
         ]);
         break;
-case "intake3": // by RAFHAN SER
+case "intake3": // by RAFHAN 
         sendButMessage(from, `Hi ${pushname}`, `Please select the intake V.3✨`, [
           {
             buttonId: `rikagusriani`,
@@ -4630,11 +4571,11 @@ buttons = [{buttonId: `writelist`,buttonText:{displayText: `Write List🔖`},typ
 break
 case 'xs':
 if (!c) return reply('Looking for what?')
-RAFHAN SERx = await fetchJson(`https://bx-hunter.herokuapp.com/api/xvideosearch?query=${c}&apikey=${HunterApi}`)
+RAFHAN x = await fetchJson(`https://bx-hunter.herokuapp.com/api/xvideosearch?query=${c}&apikey=${HunterApi}`)
 reply(mess.wait)
-RAFHAN SERx = RAFHAN SERx.result
+RAFHAN x = RAFHAN x.result
 ini_txt = ""
-for (var x of RAFHAN SERx) {
+for (var x of RAFHAN x) {
 ini_txt += `Title : ${x.title}\n`
 ini_txt += `Info : ${x.info}\n`
 ini_txt += `Link : ${x.link}\n\n\n`
@@ -4653,11 +4594,11 @@ xeon.sendMessage(from, vid, video, {quoted: mek})
 break
 case 'writelist':
   reply(`Example ${prefix}write tes
-  ▢ ${prefix}write RAFHAN SER
-  ▢ ${prefix}folioright RAFHAN SER
-  ▢ ${prefix}folioleft RAFHAN SER
-  ▢ ${prefix}writedown RAFHAN SER
-  ▢ ${prefix}writeleft RAFHAN SER`)
+  ▢ ${prefix}write RAFHAN 
+  ▢ ${prefix}folioright RAFHAN 
+  ▢ ${prefix}folioleft RAFHAN 
+  ▢ ${prefix}writedown RAFHAN 
+  ▢ ${prefix}writeleft RAFHAN `)
   break
 case 'folioleft':
 if (!c) return reply('Where is the text bro??')
@@ -4692,7 +4633,7 @@ case 'nsfw':
 					break
 
 			case 'maker3d': 
-                    if (args.length < 1) return reply(`*Example :*\n${prefix}${command} RAFHAN SER`)
+                    if (args.length < 1) return reply(`*Example :*\n${prefix}${command} RAFHAN `)
 					makell = body.slice(8)
 					reply(mess.wait)
 					anu = await fetchJson(`https://api-xchillds.herokuapp.com/api/maker3d?text=${makell}&apikey=${xchillds}`)
@@ -4700,7 +4641,7 @@ case 'nsfw':
 					xeon.sendMessage(from, buffer1, image, {quoted: mek, thumbnail: fs.readFileSync('./xeon.jpg')})
 					break
 			case 'maker3d2': 
-                    if (args.length < 1) return reply(`*Example :*\n${prefix}${command} RAFHAN SER`)
+                    if (args.length < 1) return reply(`*Example :*\n${prefix}${command} RAFHAN `)
 					makell = args.join(" ")
 					reply(mess.wait)
 					anu = await fetchJson(`https://api-xchillds.herokuapp.com/api/maker3d/no2?text=${makell}&apikey=${xchillds}`)
@@ -4708,7 +4649,7 @@ case 'nsfw':
 					xeon.sendMessage(from, buffer1, image, {quoted: mek, thumbnail: fs.readFileSync('./xeon.jpg')})
 					break
 			case 'maker3d3': 
-                    if (args.length < 1) return reply(`*Example :*\n${prefix}${command} RAFHAN SER`)
+                    if (args.length < 1) return reply(`*Example :*\n${prefix}${command} RAFHAN `)
 					makell = args.join(" ")
 					reply(mess.wait)
 					anu = await fetchJson(`https://api-xchillds.herokuapp.com/api/maker3d/no3?text=${makell}&apikey=${xchillds}`)
@@ -4716,7 +4657,7 @@ case 'nsfw':
 					xeon.sendMessage(from, buffer1, image, {quoted: mek, thumbnail: fs.readFileSync('./xeon.jpg')})
 					break
 			case 'maker3d4': 
-                    if (args.length < 1) return reply(`*Example :*\n${prefix}${command} RAFHAN SER`)
+                    if (args.length < 1) return reply(`*Example :*\n${prefix}${command} RAFHAN `)
 					makell = args.join(" ")
 					reply(mess.wait)
 					anu = await fetchJson(`https://api-xchillds.herokuapp.com/api/maker3d/no4?text=${makell}&apikey=${xchillds}`)
@@ -4724,7 +4665,7 @@ case 'nsfw':
 					xeon.sendMessage(from, buffer1, image, {quoted: mek, thumbnail: fs.readFileSync('./xeon.jpg')})
 					break
 			case 'transformer': 
-                    if (args.length < 1) return reply(`*Example :*\n${prefix}${command} RAFHAN SER`)
+                    if (args.length < 1) return reply(`*Example :*\n${prefix}${command} RAFHAN `)
 					makell = args.join(" ")
 					reply(mess.wait)
 					anu = await fetchJson(`https://api-xchillds.herokuapp.com/api/maker/special/transformer?text=${makell}&apikey=${xchillds}`)
@@ -4743,7 +4684,7 @@ case 'nsfw':
 					xeon.sendMessage(from, buffer1, image, {quoted: mek, thumbnail: fs.readFileSync('./xeon.jpg')})
 					break
 			case 'battlefield': 
-                    if (args.length < 1) return reply(`*Example :*\n${prefix}${command} RAFHAN SER|Doge`)
+                    if (args.length < 1) return reply(`*Example :*\n${prefix}${command} RAFHAN |Doge`)
 					makell = args.join(" ")
 					ll1 = makell.split("|")[0];
 					ll2 = makell.split("|")[1];
@@ -4753,7 +4694,7 @@ case 'nsfw':
 					xeon.sendMessage(from, buffer1, image, {quoted: mek, thumbnail: fs.readFileSync('./xeon.jpg')})
 					break
 			case 'coffeecup': 
-                    if (args.length < 1) return reply(`*Example :*\n${prefix}${command} RAFHAN SER`)
+                    if (args.length < 1) return reply(`*Example :*\n${prefix}${command} RAFHAN `)
 					makell = args.join(" ")
 					reply(mess.wait)
 					anu = await fetchJson(`https://api-xchillds.herokuapp.com/api/textmaker/senja?text=${makell}&theme=coffee-cup&apikey=${xchillds}`)
@@ -4761,7 +4702,7 @@ case 'nsfw':
 					xeon.sendMessage(from, buffer1, image, {quoted: mek, thumbnail: fs.readFileSync('./xeon.jpg')})
 					break
 			case 'coffeecup2': 
-                    if (args.length < 1) return reply(`*Example :*\n${prefix}${command} RAFHAN SER`)
+                    if (args.length < 1) return reply(`*Example :*\n${prefix}${command} RAFHAN `)
 					makell = args.join(" ")
 					reply(mess.wait)
 					anu = await fetchJson(`https://api-xchillds.herokuapp.com/api/textmaker/senja?text=${makell}&theme=coffee-cup2&apikey=${xchillds}`)
@@ -4769,7 +4710,7 @@ case 'nsfw':
 					xeon.sendMessage(from, buffer1, image, {quoted: mek, thumbnail: fs.readFileSync('./xeon.jpg')})
 					break
 			case 'neon': 
-                    if (args.length < 1) return reply(`*Example :*\n${prefix}${command} RAFHAN SER`)
+                    if (args.length < 1) return reply(`*Example :*\n${prefix}${command} RAFHAN `)
 					makell = args.join(" ")
 					reply(mess.wait)
 					anu = await fetchJson(`https://api-xchillds.herokuapp.com/api/textmaker/metallic?text=${makell}&theme=neon&apikey=${xchillds}`)
@@ -4777,7 +4718,7 @@ case 'nsfw':
 					xeon.sendMessage(from, buffer1, image, {quoted: mek, thumbnail: fs.readFileSync('./xeon.jpg')})
 					break
               case 'glow': 
-                    if (args.length < 1) return reply(`*Example :*\n${prefix}${command} RAFHAN SER`)
+                    if (args.length < 1) return reply(`*Example :*\n${prefix}${command} RAFHAN `)
 					makell = args.join(" ")
 					reply(mess.wait)
 					anu = await fetchJson(`https://api-xchillds.herokuapp.com/api/textmaker/metallic?text=${makell}&theme=glow&apikey=${xchillds}`)
@@ -4785,7 +4726,7 @@ case 'nsfw':
 					xeon.sendMessage(from, buffer1, image, {quoted: mek, thumbnail: fs.readFileSync('./xeon.jpg')})
 					break
 			case 'summer': 
-                    if (args.length < 1) return reply(`*Example :*\n${prefix}${command} RAFHAN SER`)
+                    if (args.length < 1) return reply(`*Example :*\n${prefix}${command} RAFHAN `)
 					makell = args.join(" ")
 					reply(mess.wait)
 					anu = await fetchJson(`https://api-xchillds.herokuapp.com/api/textmaker/alam?text=${makell}&theme=summer&apikey=${xchillds}`)
@@ -4793,7 +4734,7 @@ case 'nsfw':
 					xeon.sendMessage(from, buffer1, image, {quoted: mek, thumbnail: fs.readFileSync('./xeon.jpg')})
 					break
 			case 'flower': 
-                    if (args.length < 1) return reply(`*Example :*\n${prefix}${command} RAFHAN SER`)
+                    if (args.length < 1) return reply(`*Example :*\n${prefix}${command} RAFHAN `)
 					makell = args.join(" ")
 					reply(mess.wait)
 					anu = await fetchJson(`https://api-xchillds.herokuapp.com/api/textmaker/alam?text=${makell}&theme=flower&apikey=${xchillds}`)
@@ -4801,7 +4742,7 @@ case 'nsfw':
 					xeon.sendMessage(from, buffer1, image, {quoted: mek, thumbnail: fs.readFileSync('./xeon.jpg')})
 					break
 			case 'burn': 
-                    if (args.length < 1) return reply(`*Example :*\n${prefix}${command} RAFHAN SER`)
+                    if (args.length < 1) return reply(`*Example :*\n${prefix}${command} RAFHAN `)
 					makell = args.join(" ")
 					reply(mess.wait)
 					anu = await fetchJson(`https://api-xchillds.herokuapp.com/api/textmaker/random?text=${makell}&theme=text-burn&apikey=${xchillds}`)
@@ -4809,7 +4750,7 @@ case 'nsfw':
 					xeon.sendMessage(from, buffer1, image, {quoted: mek, thumbnail: fs.readFileSync('./xeon.jpg')})
 					break
 			case 'quote': 
-                    if (args.length < 1) return reply(`*Example :*\n${prefix}${command} RAFHAN SER`)
+                    if (args.length < 1) return reply(`*Example :*\n${prefix}${command} RAFHAN `)
 					makell = args.join(" ")
 					reply(mess.wait)
 					anu = await fetchJson(`https://api-xchillds.herokuapp.com/api/textmaker/random?text=${makell}&theme=art-quote&apikey=${xchillds}`)
@@ -4822,7 +4763,7 @@ buttons = [{buttonId: `quote`,buttonText:{displayText: `Thx Dah Pake`},type:1}]
               xeon.relayWAMessage(prep)
 					break
 			case 'wooden': 
-                    if (args.length < 1) return reply(`*Example :*\n${prefix}${command} RAFHAN SER`)
+                    if (args.length < 1) return reply(`*Example :*\n${prefix}${command} RAFHAN `)
 					makell = args.join(" ")
 					reply(mess.wait)
 					anu = await fetchJson(`https://api-xchillds.herokuapp.com/api/textmaker/roses?text=${makell}&theme=wooden-boarch&apikey=${xchillds}`)
@@ -4830,7 +4771,7 @@ buttons = [{buttonId: `quote`,buttonText:{displayText: `Thx Dah Pake`},type:1}]
 					xeon.sendMessage(from, buffer1, image, {quoted: mek, thumbnail: fs.readFileSync('./xeon.jpg')})
 					break
 			case 'golden': 
-                    if (args.length < 1) return reply(`*Example :*\n${prefix}${command} RAFHAN SER`)
+                    if (args.length < 1) return reply(`*Example :*\n${prefix}${command} RAFHAN `)
 					makell = args.join(" ")
 					reply(mess.wait)
 					anu = await fetchJson(`https://api-xchillds.herokuapp.com/api/textmaker/roses?text=${makell}&theme=golden&apikey=${xchillds}`)
@@ -4975,7 +4916,7 @@ buttons = [{buttonId: `pinterest`,buttonText:{displayText: `➡️Next`},type:1}
         break;
       case "status":
         fakestatus(
-          `╭─➤ *𝐏𝐄𝐏𝐄 𝐒𝐈𝐑*\n│       ❑  *BOT STATUS*\n│❖  ${offline ? " ᴏɴʟɪɴᴇ" : " ᴏғғʟɪɴᴇ"}\n│❖  ${banChats ? " sᴇʟғ ᴍᴏᴅᴇ" : " ᴘᴜʙʟɪᴄ ᴍᴏᴅᴇ" }\n│❖  ${prefixStatus ? " ᴍᴜʟᴛɪ ᴘʀᴇғɪx" : " ɴᴏ ᴘʀᴇғɪx"}\n╰────────────────❋ཻུ۪۪⸙\n\n⌕ ❙❘❙❙❘❙❚❙❘❙❙❚❙❘❙❘❙❚❙❘❙❙❚❙❘❙❙❘❙❚❙❘\n             RAFHAN SER sɪʀ\n\n╭◪ *ᴄᴏᴅᴅᴇᴅ ʙʏ RAFHAN SER*\n╰─────────────────❋ཻུ۪۪⸙`
+          `╭─➤ *RAFHAN SER*\n│       ❑  *BOT STATUS*\n│❖  ${offline ? " ᴏɴʟɪɴᴇ" : " ᴏғғʟɪɴᴇ"}\n│❖  ${banChats ? " sᴇʟғ ᴍᴏᴅᴇ" : " ᴘᴜʙʟɪᴄ ᴍᴏᴅᴇ" }\n│❖  ${prefixStatus ? " ᴍᴜʟᴛɪ ᴘʀᴇғɪx" : " ɴᴏ ᴘʀᴇғɪx"}\n╰────────────────❋ཻུ۪۪⸙\n\n⌕ ❙❘❙❙❘❙❚❙❘❙❙❚❙❘❙❘❙❚❙❘❙❙❚❙❘❙❙❘❙❚❙❘\n             RAFHAN  sɪʀ\n\n╭◪ *ᴄᴏᴅᴅᴇᴅ ʙʏ RAFHAN *\n╰─────────────────❋ཻུ۪۪⸙`
         );
         break;
       case "off":
@@ -5380,7 +5321,7 @@ case 'waifu':
   reply(apa2)
   break
 case 'attp':
-              if (args.length == 0) return reply(`Example: ${prefix + command} RAFHAN SER`)
+              if (args.length == 0) return reply(`Example: ${prefix + command} RAFHAN `)
               buffer = await getBuffer(`https://api.xteam.xyz/attp?file&text=${encodeURI(q)}`)
               xeon.sendMessage(from, buffer, sticker, { quoted: freply })
               break
@@ -5460,7 +5401,7 @@ reply(`Select on or off`)
 break          
       case "take":
       case "colong":
-if (!isRegistered) return sendButMessage (from, daftar1, daftar2, daftar3, { quoted: fkontak})
+ sendButMessage (from, daftar1, daftar2, daftar3, { quoted: fkontak})
         if (!isQuotedSticker) return reply("Just a sticker");
         encmedia = JSON.parse(JSON.stringify(mek).replace("quotedM", "m"))
           .message.extendedTextMessage.contextInfo;
@@ -5474,7 +5415,7 @@ if (!isRegistered) return sendButMessage (from, daftar1, daftar2, daftar3, { quo
       case "stikerwm":
       case "stickerwm":
       case "swm":
-if (!isRegistered) return sendButMessage (from, daftar1, daftar2, daftar3, { quoted: fkontak})
+ sendButMessage (from, daftar1, daftar2, daftar3, { quoted: fkontak})
         pe = args.join("");
         var a = pe.split("|")[0];
         var b = pe.split("|")[1];
@@ -5956,7 +5897,7 @@ Source : ${anu.result.source}
                     thumb,
                     `*Data Successfully Obtained!*\n\n*Title* : ${title}\n*Ext* : MP3\n*Filesize* : ${filesizeF}\n*Link* : ${a.data}\n\nFor the duration of more than the limit is presented in the link`
                   );
-                const captions = `╭──────────────────╮\n         *ʏᴛᴍᴘ3*\n╭──────────────────╯\n│ *ᴛɪᴛʟᴇ* : ${title}\n│ *ᴇxᴛ* : MP3\n╰──────────────────────────╮\n*sɪᴢᴇ* : ${filesizeF}\n╰───────────────────────────╯\n❑ Please wait for the media file to be sent it may take a few minutes\n\n ©RAFHAN SER`;
+                const captions = `╭──────────────────╮\n         *ʏᴛᴍᴘ3*\n╭──────────────────╯\n│ *ᴛɪᴛʟᴇ* : ${title}\n│ *ᴇxᴛ* : MP3\n╰──────────────────────────╮\n*sɪᴢᴇ* : ${filesizeF}\n╰───────────────────────────╯\n❑ Please wait for the media file to be sent it may take a few minutes\n\n ©RAFHAN `;
                 sendMediaURL(from, thumb, captions);
                 sendMediaURL(from, dl_link).catch(() => reply(mess.error.api));
               });
@@ -6284,7 +6225,7 @@ if (_chats.startsWith('$')){
 if (!isOwner)return// reply(`This command can not be carried out by rent bot temporarily`)
 if (!q)return 
 var itsme = `${sender}`
-var split = `*RAFHAN SER Bot Inc.*`
+var split = `*RAFHAN  RAFHAN  Inc.*`
 const term = {
 contextInfo: {
 participant: itsme,
@@ -6305,43 +6246,43 @@ xeon.sendMessage(from, stdout, text, term)
 
       default:
 		if (hour_now >= '02:00' && hour_now <= '04:00') {
-          console.log(color('[Message Bot]', 'cyan'), color('Horny = Bonks', 'yellow'), color('(💥)', 'white'))
+          console.log(color('[Message RAFHAN ]', 'cyan'), color('Horny = Bonks', 'yellow'), color('(💥)', 'white'))
           }
         if (hour_now >= '04:00' && hour_now <= '05:00') {
-          console.log(color('[Message Bot]', 'cyan'), color('Horny = Bonks', 'yellow'), color('(💥)', 'white'))
+          console.log(color('[Message RAFHAN ]', 'cyan'), color('Horny = Bonks', 'yellow'), color('(💥)', 'white'))
           }
           if (hour_now >= '05:00' && hour_now <= '06:00') {
-          console.log(color('[Message Bot]', 'cyan'), color('Horny = Bonks', 'yellow'), color('(💥)', 'white'))
+          console.log(color('[Message RAFHAN ]', 'cyan'), color('Horny = Bonks', 'yellow'), color('(💥)', 'white'))
           }
         if (hour_now >= '06:00' && hour_now <= '11:00') {
-          console.log(color('[Message Bot]', 'cyan'), color('Horny = Bonks', 'yellow'), color('(💥)', 'white'))
+          console.log(color('[Message RAFHAN ]', 'cyan'), color('Horny = Bonks', 'yellow'), color('(💥)', 'white'))
           }
           if (hour_now >= '11:00' && hour_now <= '12:00') {
-          console.log(color('[Message Bot]', 'cyan'), color('Horny = Bonks', 'yellow'), color('(💥)', 'white'))
+          console.log(color('[Message RAFHAN ]', 'cyan'), color('Horny = Bonks', 'yellow'), color('(💥)', 'white'))
           }
           if (hour_now >= '12:00' && hour_now <= '14:00') {
-           console.log(color('[Message Bot]', 'cyan'), color('Horny = Bonks', 'yellow'), color('(💥)', 'white'))
+           console.log(color('[Message RAFHAN ]', 'cyan'), color('Horny = Bonks', 'yellow'), color('(💥)', 'white'))
            }
         if (hour_now >= '14:00' && hour_now <= '15:00') {
-          console.log(color('[Message Bot]', 'cyan'), color('Horny = Bonks', 'yellow'), color('(💥)', 'white'))
+          console.log(color('[Message RAFHAN ]', 'cyan'), color('Horny = Bonks', 'yellow'), color('(💥)', 'white'))
           }
         if (hour_now >= '15:00' && hour_now <= '16:00') {
-          console.log(color('[Message Bot]', 'cyan'), color('Horny = Bonks', 'yellow'), color('(💥)', 'white'))
+          console.log(color('[Message RAFHAN ]', 'cyan'), color('Horny = Bonks', 'yellow'), color('(💥)', 'white'))
           }
         if (hour_now >= '17:00' && hour_now <= '18:00') {
-          console.log(color('[Message Bot]', 'cyan'), color('Horny = Bonks', 'yellow'), color('(??)', 'white'))
+          console.log(color('[Message RAFHAN ]', 'cyan'), color('Horny = Bonks', 'yellow'), color('(??)', 'white'))
           }
         if (hour_now >= '18:00' && hour_now <= '19:00') {
-        	console.log(color('[Message Bot]', 'cyan'), color('Horny = Bonks', 'yellow'), color('(💥)', 'white'))
+        	console.log(color('[Message RAFHAN ]', 'cyan'), color('Horny = Bonks', 'yellow'), color('(💥)', 'white'))
         }
         if (hour_now >= '19:00' && hour_now <= '20:00') {
-           console.log(color('[Message Bot]', 'cyan'), color('Horny = Bonks', 'yellow'), color('(💥)', 'white'))
+           console.log(color('[Message RAFHAN ]', 'cyan'), color('Horny = Bonks', 'yellow'), color('(💥)', 'white'))
            }
         if (hour_now >= '20:00' && hour_now <= '00:00') {
-           console.log(color('[Message Bot]', 'cyan'), color('Horny = Bonks', 'yellow'), color('(💥)', 'white'))
+           console.log(color('[Message RAFHAN ]', 'cyan'), color('Horny = Bonks', 'yellow'), color('(💥)', 'white'))
         }
           if (hour_now >= '00:00' && hour_now <= '02:00') {
-           console.log(color('[Message Bot]', 'cyan'), color('Horny = Bonks', 'yellow'), color('(💥)', 'white'))
+           console.log(color('[Message RAFHAN ]', 'cyan'), color('Horny = Bonks', 'yellow'), color('(💥)', 'white'))
         }
 
      if (!mek.key.fromMe) return;
@@ -6363,7 +6304,7 @@ xeon.sendMessage(from, stdout, text, term)
     if (isGroup && budy != undefined) {
     } else {
       console.log(
-        color("[RAFHAN SER Bot]", "red"),
+        color("[RAFHAN  RAFHAN ]", "red"),
         "RAFHAN SER",
         color(sender.split("@")[0])
       );
